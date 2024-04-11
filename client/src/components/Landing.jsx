@@ -15,6 +15,7 @@ const Landing = () => {
             <a href="#shortenUrl">
               <button className="bg-[#6163ff] p-3 px-5 rounded-md font-semibold text-white w-max">
                 Get Started
+                {/* link to input */}
               </button>
             </a>
           </div>

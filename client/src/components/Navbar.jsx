@@ -44,6 +44,7 @@ const Navbar = () => {
                 aria-current="page"
               >
                 Home
+                {/* go to home */}
               </a>
             </li>
             <li className="flex">
@@ -66,6 +67,7 @@ const Navbar = () => {
               {/* <div className="space-x-3 my-auto ml-2"> */}
               <button className="bg-white p-2 px-3 text-[#6163ff] rounded-lg">
                 Sign Up
+                {/* user sign up */}
               </button>
               {/* </div> */}
             </li>

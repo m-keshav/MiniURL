@@ -34,6 +34,9 @@ const Shorten = () => {
           </div>
           <div className="space-x-2 text-center mt-3 sm:pt-5 flex w-[90%] lg:w-[70%] inputBox mx-auto">
             <div className="flex w-full">
+              {/* <div className="p-2 rounded bg-white w-fit">
+                <QRCode value={srtUrlData.shortUrl} size={200} level={"L"} />
+              </div> */}
               <input
                 type="text"
                 className="bg-[#3b3b3b] border-2  focus:border-white longInput w-full h-full px-3"

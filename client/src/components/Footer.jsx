@@ -13,6 +13,7 @@ const Footer = () => {
           <li>
             <a href="#" class="mr-4 hover:underline md:mr-6 ">
               Home
+              {/* Go to home */}
             </a>
           </li>
           <li>
@@ -28,6 +29,7 @@ const Footer = () => {
           <li>
             <a href="#" class="hover:underline">
               Login
+              {/* User Login */}
             </a>
           </li>
         </ul>
