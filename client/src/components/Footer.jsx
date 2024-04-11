@@ -34,11 +34,11 @@ const Footer = () => {
       </div>
       <hr class="my-6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <span class="block text-sm text-gray-400 sm:text-center dark:text-gray-400">
-        © 2022{" "}
+        © 2023{" "}
         <a href="/" class="hover:underline">
           MiniUrl
         </a>
-        . Made with ❤️ by Jay
+        . Made with ❤️ by Keshav
       </span>
     </footer>
   );

@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 const config = require("config");
 require("dotenv").config();
 
-// const db = config.get("mongoUri");
-const db = process.env.MONGO_URI;
+
+const db = "mongodb+srv://keshav:20ume021@cluster0.x02juvt.mongodb.net/MiniUrl";
+
 
 const connectDB = async () => {
   try {

@@ -13,7 +13,7 @@ const Shorten = () => {
     setcopied(false);
     axios({
       method: "post",
-      url: "http://localhost:5000/api/genShortUrl",
+      url: "http://localhost:5001/api/genShortUrl",
       data: {
         longUrl: longUrl,
       },
