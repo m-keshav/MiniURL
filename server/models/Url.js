@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
+
+//schema definition
 const UrlSchema = new Schema({
   shortCode: {
     type: String,

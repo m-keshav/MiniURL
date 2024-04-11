@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Url = require("../models/Url");
 
+//redirection router
 router.get("/:sid", async (req, res) => {
   try {
     const shortCode = req.params.sid;

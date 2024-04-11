@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const config = require("config");
 require("dotenv").config();
 
-
+//mongo database connection
 const db = "mongodb+srv://keshav:20ume021@cluster0.x02juvt.mongodb.net/MiniUrl";
 
 
